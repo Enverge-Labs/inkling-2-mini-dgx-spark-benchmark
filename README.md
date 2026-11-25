@@ -2,6 +2,8 @@
 
 Serving speed of [Inkling 2 Mini](https://huggingface.co/thinkingmachines/Inkling-2-Mini) on a single DGX Spark (GB10), using vLLM's [DGX Spark recipe](https://recipes.vllm.ai/thinkingmachines/Inkling-2-Mini?hardware=dgx_spark_gb10) with the DSpark speculator. Run on 23 November 2026.
 
+Write-up: [Inkling 2 Mini on a DGX Spark: 50 Tokens a Second for One, 200 for Sixteen](https://spark.enverge.ai/blog/inkling-2-mini-on-dgx-spark)
+
 ## Results
 
 ~1.2k tokens in, 1,024 out (reasoning included), temperature 1.0, client on the same machine.
